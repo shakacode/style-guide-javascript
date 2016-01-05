@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-shakacode",
+  "version": "0.0.1",
+  "description": "Shakacode eslint config.",
+  "authors": [
+    "Justin Gordon <justin.gordon@gmail.com> (https://github.com/justin808)",
+    "Alex Fedoseev <alex.fedoseev@gmail.com> (https://github.com/alexfedoseev)"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/shakacode/style-guide-javascript",
+  "bugs": {
+    "url": "https://github.com/shakacode/style-guide-javascript/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "scripts": {
+    "release:patch": "scripts/release patch",
+    "release:minor": "scripts/release minor",
+    "release:major": "scripts/release major"
+  },
+  "peerDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*"
+  }
+}

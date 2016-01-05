@@ -1,0 +1,5 @@
+---
+rules:
+  # ES7 static is not supported yet
+  # See https://github.com/yannickcr/eslint-plugin-react/issues/128
+  react/sort-comp: 0
