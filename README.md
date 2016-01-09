@@ -12,6 +12,45 @@ Here's a few notes on top of that:
 
 # Exceptions (React Guide only)
 
+## Use the Official Docs from Facebook
+We follow the official [FB docs on ES6 for React](https://facebook.github.io/react/docs/reusable-components.html#es6-classes)
+
+For example:
+
+```javascript
+import _ from 'lodash';
+export class Counter extends React.Component {
+  static propTypes = {
+    initialCount: React.PropTypes.number,
+  };
+  
+  static defaultProps = {
+    initialCount: 0,
+  };
+  
+  constructor(props) {
+    super(props);
+    this.state = {count: props.initialCount};
+    
+    _.bindAll("tick");
+  }
+  tick() {
+    this.setState({count: this.state.count + 1});
+  }
+  render() {
+    return (
+      <div onClick={this.tick}>
+        Clicks: {this.state.count}
+      </div>
+    );
+  }
+}
+```
+
+**Compared to the official docs**, we use ES7 static syntax for the propTypes and defaultProps. We initialize state per the above aexample in the constructor. We also use lodash `_.bindAll` for callback bindings.
+
+We also 
+
 ## Root Components
 [AirBnb on Root components](https://github.com/airbnb/javascript/blob/master/react/README.md#naming)
 
