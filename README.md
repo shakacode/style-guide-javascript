@@ -47,9 +47,7 @@ export class Counter extends React.Component {
 }
 ```
 
-**Compared to the official docs**, we use ES7 static syntax for the propTypes and defaultProps. We initialize state per the above aexample in the constructor. We also use lodash `_.bindAll` for callback bindings.
-
-We also 
+**Compared to the official docs**, we use ES7 static syntax for the propTypes and defaultProps. We initialize state per the above example in the constructor. We also use lodash `_.bindAll` for callback bindings.
 
 ## Root Components
 [AirBnb on Root components](https://github.com/airbnb/javascript/blob/master/react/README.md#naming)
