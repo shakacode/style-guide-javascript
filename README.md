@@ -23,10 +23,11 @@ Notable differences:
 For example:
 
 ```javascript
+import React, { PropTypes } from 'react';
 import _ from 'lodash';
-export class Counter extends React.Component {
+export default class Counter extends React.Component {
   static propTypes = {
-    initialCount: React.PropTypes.number,
+    initialCount: PropTypes.number,
   };
   
   static defaultProps = {
@@ -35,12 +36,12 @@ export class Counter extends React.Component {
   
   constructor(props) {
     super(props);
-    this.state = {count: props.initialCount};
+    this.state = { count: props.initialCount };
     
-    _.bindAll("tick");
+    _.bindAll(this, 'tick');
   }
   tick() {
-    this.setState({count: this.state.count + 1});
+    this.setState({ count: this.state.count + 1 });
   }
   render() {
     return (
