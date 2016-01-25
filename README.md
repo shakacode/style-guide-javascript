@@ -15,7 +15,7 @@ Here's a few notes on top of that:
 # Exceptions From AirBnb JavaScript Style Guide (React Guide only)
 
 ## Use the Official Docs from Facebook
-We mostly folow the official [FB docs on ES6 for React](https://facebook.github.io/react/docs/reusable-components.html#es6-classes). We initialize state in the constructor. 
+We mostly folow the official [FB docs on ES6 for React](https://facebook.github.io/react/docs/reusable-components.html#es6-classes). We initialize state in the constructor.
 
 Notable differences:
 
@@ -31,15 +31,15 @@ export default class Counter extends React.Component {
   static propTypes = {
     initialCount: PropTypes.number,
   };
-  
+
   static defaultProps = {
     initialCount: 0,
   };
-  
+
   constructor(props) {
     super(props);
     this.state = { count: props.initialCount };
-    
+
     _.bindAll(this, 'tick');
   }
   tick() {
@@ -104,3 +104,47 @@ Here is why:
 * Prefix Immutable.js variable names and properties with `$$`. By doing this, you will clearly know that you are dealing with an Immutable.js object and not a standard JavaScript Object or Array.
 * Use ES6 classes rather than `React.createClass`.
 * Bind callbacks passed to react components with `_.bindAll` in the constructor unless you need to bind additional parameters. In that case, you can call `_.bind` within the rendering.
+
+### Ternary Conditionals Formatting
+Ternary conditionals in a method that return JSX should take this form:
+
+```es6
+someMethod(someBoolean) {
+  return (
+    someBoolean ?
+    <SomeComponent /> :
+    <OtherComponent />
+  );
+}
+```
+
+When we use parenthesis, we can easily find the end of the expression by the indent guide. Otherwise we have to scan the lines for the end of the expression, and indent guides look like a fence (they actually lose their meaning):
+
+```
+return (
+| ...
+| ...
+);
+```
+
+The same can be applied to assignments:
+
+```
+const myConst = ( // <-- Invitation to see the expression on the next line. Result of the expression will be returned.
+ ... //  <-- Expression encapsulated here and looks solid, easier to read
+);
+```
+
+### Ternary conditionals appearing directly in JSX should take this form:
+
+```es6
+render() {
+  return (
+    {
+      someBoolean ?
+      <SomeComponent /> :
+      <OtherComponent />
+    }
+  );
+}
+```
