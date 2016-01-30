@@ -21,8 +21,13 @@
     "release:major": "scripts/release major"
   },
   "peerDependencies": {
-    "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-config-airbnb": "*"
+    "eslint": ">=1.0.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^5.0.0-beta6",
+    "eslint-config-airbnb": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
   }
 }
