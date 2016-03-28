@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.0.0
+
+* **Breaking:** Deps updates: `babel-eslint` to `6.x.x`.
+
 ## 3.0.0
 
 * **Breaking:** Deps updates: `babel-eslint` to `5.x.x` and `eslint-config-airbnb` to `6.x.x`.
