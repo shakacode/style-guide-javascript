@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shakacode",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Shakacode eslint config.",
   "authors": [
     "Justin Gordon <justin.gordon@gmail.com> (https://github.com/justin808)",
@@ -25,11 +25,11 @@
     "eslint": ">=2.0.0"
   },
   "dependencies": {
-    "babel-eslint": "^6.0.4",
-    "eslint-config-airbnb": "^9.0.1"
+    "babel-eslint": "^6.1.2",
+    "eslint-config-airbnb": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^2.9.0",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint": "^3.2.2",
+    "eslint-plugin-react": "^6.0.0"
   }
 }
