@@ -1,6 +1,14 @@
 ShakaCode's JavaScript style guide. (You should also check out [our Ruby style guide](https://github.com/shakacode/style-guide-ruby))
 
-See [eslint-config-shakacode](./eslint-config-shakacode/README.md) for setting up your linter to follow these style guidelines.
+
+# Implementation
+* See [eslint-config-shakacode](./eslint-config-shakacode/README.md) for setting up your linter to follow these style guidelines.
+* We recommended:
+  * Using a linter to implement any style guideline. We've found style guidelines without linting to be only marginally useful. With a linter, the style guideline is only used as a reference.
+  * Minimizing deviations from the community standard unless you have a good reason for your project. The typical reason is that due to some quirk in your project or bug in the linter, then you will get warnings that you can't disable via configuration.
+  * You can use `eslint-disable` and `eslint-disable-next-line` and `eslint-disable-line` to locally turn off a linter rule. Typically, you want to minimize doing this as it will clutter your source.
+  * Consider using `errors` for things you must fix before merging to master, and `warnings` for things your team eventually plans to fix. Then create a script that uses the eslint option `--quiet` so that eslint only prints errors.
+  * Use a YAML file for your eslint rules so you can add comments, such as why you are disabling a linter rule, as well as links to github issues where you've reported a problem.
 
 # ShakaCode JavaScript Style Guide
 Our **JavaScript Style Guide** is relatively simple because we're leveraging the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) and its associated `.eslintrc` and `.jscsrc` files.
@@ -118,7 +126,7 @@ someMethod(someBoolean) {
 }
 ```
 
-When we use parenthesis, we can easily find the end of the expression by the indent guide. Otherwise we have to scan the lines for the end of the expression, and indent guides look like a fence (they actually lose their meaning):
+When we use parenthesis, we can easily find the end of the expression by the indent guide. Otherwise, we have to scan the lines for the end of the expression, and indent guides look like a fence (they actually lose their meaning):
 
 ```
 return (
