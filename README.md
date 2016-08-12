@@ -2,7 +2,7 @@ ShakaCode's JavaScript style guide. (You should also check out [our Ruby style g
 
 
 # Implementation
-* See [eslint-config-shakacode](./eslint-config-shakacode/README.md) for setting up your linter to follow these style guidelines.
+* See [eslint-config-shakacode](./packages/eslint-config-shakacode/README.md) for setting up your linter to follow these style guidelines.
 * We recommended:
   * Using a linter to implement any style guideline. We've found style guidelines without linting to be only marginally useful. With a linter, the style guideline is only used as a reference.
   * Minimizing deviations from the community standard unless you have a good reason for your project. The typical reason is that due to some quirk in your project or bug in the linter, then you will get warnings that you can't disable via configuration.
