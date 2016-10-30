@@ -21,7 +21,7 @@ Here's a few notes on top of that:
 
 # Exceptions From AirBnb JavaScript Style Guide (React Guide only)
 ## Use the Official Docs from Facebook
-We mostly folow the official [FB docs on ES6 for React](https://facebook.github.io/react/docs/reusable-components.html#es6-classes). We initialize state in the constructor.
+We mostly follow the official [FB docs on ES6 for React](https://facebook.github.io/react/docs/reusable-components.html#es6-classes). We initialize state in the constructor.
 
 Notable differences:
 
