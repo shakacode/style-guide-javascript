@@ -14,6 +14,3 @@ rules:
   no-unused-vars:
     - 2
     - argsIgnorePattern: ^_
-
-  # https://github.com/benmosher/eslint-plugin-import/issues/340
-  import/no-extraneous-dependencies: 0
