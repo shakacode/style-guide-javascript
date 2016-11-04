@@ -1,5 +1,8 @@
 ---
 rules:
+  arrow-parens:
+    - 2
+    - "always"
 
   # http://eslint.org/docs/rules/no-return-assign.html
   # packages/eslint-config-airbnb-base/rules/best-practices.js used the default which is
