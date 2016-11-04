@@ -15,7 +15,6 @@ Our **JavaScript Style Guide** is relatively simple because we're leveraging the
 
 Here's a few notes on top of that:
 
-1. **Line Length**: We're slightly extending the airbnb standard of 80 to 100. Here's [a good reason that 80 is too small](https://github.com/airbnb/javascript/pull/458). Any strings greater than 100 should be broken up into multiple lines.
 1. Check out the [AirBnb React Guide](https://github.com/airbnb/javascript/blob/master/react/README.md) keeping in mind the exceptions listed below.
 1. Use ES6 classes for React components.
 
