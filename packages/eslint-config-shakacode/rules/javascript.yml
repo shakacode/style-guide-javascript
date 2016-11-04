@@ -2,15 +2,16 @@
 rules:
 
   # http://eslint.org/docs/rules/no-return-assign.html
+  # packages/eslint-config-airbnb-base/rules/best-practices.js used the default which is
+  # without the "always". We like never assigning in a return statement.
   no-return-assign:
     - 2
     - "always"
 
-  # http://eslint.org/docs/rules/no-param-reassign.html
-  no-param-reassign:
-    - 2
-    - props: false
-
+  # http://eslint.org/docs/rules/no-unused-vars
+  # We like using an _someVarName for unused args
   no-unused-vars:
     - 2
-    - argsIgnorePattern: ^_
+    -
+      args: "all"
+      argsIgnorePattern: ^_

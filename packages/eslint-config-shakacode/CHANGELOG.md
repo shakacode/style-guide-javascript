@@ -1,5 +1,9 @@
 # Change Log
 
+## 13.0.0
+* See Diffs!
+* We're almost exactly the same as Airbnb at this point.
+
 ## 4.0.0
 
 * **Breaking:** Deps updates: `babel-eslint` to `6.x.x`.
