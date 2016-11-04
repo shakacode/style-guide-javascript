@@ -12,6 +12,5 @@ rules:
   # We like using an _someVarName for unused args
   no-unused-vars:
     - 2
-    -
-      args: "all"
+    - args: "all"
       argsIgnorePattern: ^_
