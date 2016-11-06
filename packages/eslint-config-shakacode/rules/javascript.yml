@@ -1,8 +1,11 @@
 ---
 rules:
+  # Airbnb style guideline has arrow-parens to be used if the body has braces, but not parens.
+  # We use flow, so we need the parens sometimes for single params with type annotations.
+  # However, we can't always use parens, as we don't want them for simple lodash operations with
+  # inline arrow functions.
   arrow-parens:
-    - 2
-    - "always"
+    - 0
 
   # http://eslint.org/docs/rules/no-return-assign.html
   # packages/eslint-config-airbnb-base/rules/best-practices.js used the default which is
