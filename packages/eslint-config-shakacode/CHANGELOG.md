@@ -1,5 +1,9 @@
 # Change Log
 
+## 13.2.1
+* Set the eslint-plugin-jsx-a11y to 2.2.3 per what's needed by airbnb 13.0.0
+
+
 ## 13.0.0
 * See Diffs!
 * We're almost exactly the same as Airbnb at this point.
