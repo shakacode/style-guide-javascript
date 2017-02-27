@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shakacode",
-  "version": "13.2.1",
+  "version": "14.1.0",
   "description": "Shakacode eslint config.",
   "authors": [
     "Justin Gordon <justin.gordon@gmail.com> (https://github.com/justin808)",
