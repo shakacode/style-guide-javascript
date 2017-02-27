@@ -1,3 +1,5 @@
 ---
-# Placeholder for overriding defaults from Airbnb Guide
-# rules:
+rules:
+  # Adds a lot of boilerplate, useless w/ @flow
+  # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
+  react/require-default-props: 0
