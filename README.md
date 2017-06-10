@@ -1,3 +1,5 @@
+ [![npm version](https://badge.fury.io/js/eslint-config-shakacode.svg)](https://badge.fury.io/js/eslint-config-shakacode)
+
 ShakaCode's JavaScript style guide. (You should also check out [our Ruby style guide](https://github.com/shakacode/style-guide-ruby))
 
 
