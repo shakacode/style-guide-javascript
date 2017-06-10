@@ -1,3 +1,5 @@
+ [![npm version](https://badge.fury.io/js/eslint-config-shakacode.svg)](https://badge.fury.io/js/eslint-config-shakacode)
+
 # eslint-config-shakacode
 
 Shakacode `eslint` config.
