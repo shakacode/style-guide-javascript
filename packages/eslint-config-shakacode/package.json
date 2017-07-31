@@ -22,15 +22,15 @@
     "release:major": "scripts/release major"
   },
   "peerDependencies": {
-    "eslint": "^3.15.0"
+    "eslint": "^4.3.0"
   },
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint-config-airbnb": "^15.0.1"
+    "eslint-config-airbnb": "^15.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.16.1",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint": "^4.3.0",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.0.1"
   }
