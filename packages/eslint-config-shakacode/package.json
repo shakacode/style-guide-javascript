@@ -22,7 +22,7 @@
     "release:major": "scripts/release major"
   },
   "peerDependencies": {
-    "eslint": "^4.3.0"
+    "eslint": "^4.9.0"
   },
   "dependencies": {
     "babel-eslint": "8.0.1",
