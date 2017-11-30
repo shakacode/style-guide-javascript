@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shakacode",
-  "version": "15.0.0-1",
+  "version": "16.0.0-rc.3",
   "description": "Shakacode eslint config.",
   "authors": [
     "Justin Gordon <justin.gordon@gmail.com> (https://github.com/justin808)",
@@ -22,16 +22,16 @@
     "release:major": "scripts/release major"
   },
   "peerDependencies": {
-    "eslint": "^4.3.0"
+    "eslint": "^4.9.0"
   },
   "dependencies": {
-    "babel-eslint": "7.2.3",
-    "eslint-config-airbnb": "15.1.0"
+    "babel-eslint": "8.0.1",
+    "eslint-config-airbnb": "16.1.0"
   },
   "devDependencies": {
-    "eslint": "4.3.0",
-    "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-jsx-a11y": "5.1.1",
-    "eslint-plugin-react": "7.1.0"
+    "eslint": "4.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
   }
 }
