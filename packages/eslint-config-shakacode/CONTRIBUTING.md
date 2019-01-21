@@ -18,7 +18,7 @@ Manual way that works:
 cp -r <path to shakacode/style-guide-javascript/packages/eslint-config-shakacode>` node_modules
 ```
 
-Here are a couple of ways that I wished would work:
+Here are a couple of ways that I wished would work, **BUT DO NOT SEEM TO WORK**:
 
 ### Via `yarn link`:
 
