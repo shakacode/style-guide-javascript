@@ -20,18 +20,3 @@ rules:
     - 2
     - args: "all"
       argsIgnorePattern: ^_
-
-  # http://eslint.org/docs/rules/max-len
-  # https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/style.js#L128
-  # Almost identical to airbnb's version, but adds ignore of `import` statements and sets ignoreStrings: false
-  max-len:
-    - 2
-    -
-      code: 100
-      tabWidth: 2
-      ignoreUrls: true
-      ignoreComments: false
-      ignoreRegExpLiterals: true
-      ignoreStrings: false
-      ignoreTemplateLiterals: false
-      ignorePattern: ^import\\s+
