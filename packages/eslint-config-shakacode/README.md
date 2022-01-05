@@ -2,7 +2,7 @@
 
 # eslint-config-shakacode
 
-Shakacode `eslint` config.
+Shakacode `eslint` config with major version number matching `eslint-config-airbnb`.
 
 ## Install
 
