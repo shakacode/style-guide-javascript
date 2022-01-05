@@ -1,8 +1,9 @@
 module.exports = {
-  'parser': 'babel-eslint',
+  'parser': '@babel/eslint-parser',
   'extends': [
-    'eslint-config-airbnb',
+    'airbnb',
+    'airbnb/hooks',
     'eslint-config-shakacode/rules/javascript',
     'eslint-config-shakacode/rules/react',
-  ].map(require.resolve),
+  ],
 };

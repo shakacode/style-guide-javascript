@@ -1,5 +1,9 @@
 # Change Log
 
+##
+* Update parser from `babel-eslint` to `@babel/eslint-parser`
+* Update `eslint-config-airbnb` and `eslint-config-airbnb-base`
+
 ## 13.2.1
 * Set the eslint-plugin-jsx-a11y to 2.2.3 per what's needed by airbnb 13.0.0
 

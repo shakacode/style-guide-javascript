@@ -5,7 +5,8 @@
   "authors": [
     "Justin Gordon <justin.gordon@gmail.com> (https://github.com/justin808)",
     "Alex Fedoseev <alex.fedoseev@gmail.com> (https://github.com/alexfedoseev)",
-    "Rob Wise <robert.wise@outlook.com> (https://github.com/robwise)"
+    "Rob Wise <robert.wise@outlook.com> (https://github.com/robwise)",
+    "Gustavo Carvalho <gsc13@tuta.io> (https://github.com/gscarv13)"
   ],
   "license": "MIT",
   "repository": "https://github.com/shakacode/style-guide-javascript",
@@ -14,7 +15,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=4.2.0"
+    "node": ">=12.22.0"
   },
   "scripts": {
     "release:patch": "scripts/release patch",
@@ -22,14 +23,15 @@
     "release:major": "scripts/release major"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.0"
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0"
   }
 }
